@@ -21,5 +21,15 @@ nodejs なので css も使えるしね。
 作ったものは画像化してとりこむ  
 
 時間があった場合にのみ pdf の体裁をさらに整える  
-pdf を inkscape に取り込んで svg 化し  
+pdf を inkscape に poppler を使って取り込んで svg 化し  
 デザインを整える。  
+
+    sudo pacman -S poppler poppler-data inkscape
+	
+inkscape での作業が終わったら pdf に戻して完成  
+
+## まとめ
+
+ドキュメントの起点がすべて markdown になるので git で管理しやすくてよい。  
+必要最小な pdf はコマンド一発でできるから時間がない時でも安心。  
+時間があるときだけ inkscape を使ってデザインに凝るという二段構えな感じがよい。  
