@@ -1,25 +1,25 @@
-# pdf 化できる markdown のテスト
+# Test markdown that can be pdf
 
 
-1. おれ
-2. 君
-3. 終わり
+1. I
+2. You
+3. end
 
 * yahoo
 * google
     * map
 	* gmail
 	  - test
-	  - 試験
-	
-### テストデータ
+	  - class
 
-1. 数字
-    * 入れ子
+### Test data
 
-> 引用
+1. dog
+    * orange
 
-# 表
+> cats
+
+# Table
 
 | Left align | Right align | Center align |
 |:-----------|------------:|:------------:|
@@ -30,32 +30,30 @@
 | left       |       right |    center    |
 | aligned    |     aligned |   aligned    |
 
-# リンク
+# Link
 
-[ヤフー](http://yahoo.co.jp)
+[yahoo](http://yahoo.co.jp)
 
-![画像](sample.png)
+![image](sample.png)
 
-# 文字
+# character
 
-~~打ち消し~~
+~~Cancellation~~
 
-**強調**
-
-
-- タスク 1
-- タスク 2
+**Emphasis**
 
 
-## 水平線
+- task 1
+- task 2
+
+
+## Horizon
 
 ------
 
 
-# 注釈
+## Annotation
 
-こう言っている[^example]
+hogehoge[^example]
 
-[^example]: そんなこともない
-
-
+[^example]: fuga fuga
